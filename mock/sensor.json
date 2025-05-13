@@ -1,0 +1,27 @@
+// mock/sensors.json
+[
+  {
+    "id": "1",
+    "name": "Sensor de Pressão A",
+    "currentValue": 5.2,
+    "status": "OK"
+  },
+  {
+    "id": "2",
+    "name": "Sensor de Fluxo B",
+    "currentValue": 2.8,
+    "status": "Alerta"
+  },
+  {
+    "id": "3",
+    "name": "Sensor de Temperatura C",
+    "currentValue": 37.5,
+    "status": "OK"
+  },
+  {
+    "id": "4",
+    "name": "Sensor de Vibração D",
+    "currentValue": 0.4,
+    "status": "Alerta"
+  }
+]
