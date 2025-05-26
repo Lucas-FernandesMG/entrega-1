@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import sensorsData from '../../mock/sensors.json';
+import sensorsData from '../../mock/sensor.json';
 
 export default function SensorList({ navigation }) {
   const [sensors, setSensors] = useState([]);

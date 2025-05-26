@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "icon": "./assets/logo.png",
     "sdkVersion": "50.0.0",
-    "platforms": ["ios", "android"],
+    "platforms": ["web", "ios", "android"],
     "orientation": "portrait",
     "backgroundColor": "#ffffff",
     "splash": {
