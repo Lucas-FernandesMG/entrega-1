@@ -2,16 +2,18 @@ import React from 'react';
 import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 export default function SettingsScreen() {
+  const apiUrl = 'http://localhost:8080/api/readings';
+
   return (
     <View style={styles.container}>
-      <Text style={styles.label}>URL da API (simulado):</Text>
+      <Text style={styles.label}>URL da API:</Text>
       <TextInput
-        placeholder="http://localhost:3000/sensores"
+        placeholder={apiUrl}
         style={styles.input}
         editable={false}
-        value="mock local"
+        value={apiUrl}
       />
-      <Text style={styles.obs}>Este app usa dados mockados de arquivos locais.</Text>
+      <Text style={styles.obs}>Este app utiliza dados reais do backend.</Text>
     </View>
   );
 }
