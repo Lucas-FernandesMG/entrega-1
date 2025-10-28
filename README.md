@@ -6,6 +6,7 @@
 - Leonardo Yukio Uliana Seno — RM: 550648  
 - Eduardo Cicero dos Santos — RM: 551415  
 - Lucas Fernandes Marabini Gaspar — RM: 98814
+
 ## Descrição
 Este é o frontend do projeto Digital Twin. Ele consome dados do backend real via API REST, exibindo leituras de sensores e seus históricos de forma interativa.
 ---
